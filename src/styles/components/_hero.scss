@@ -1,0 +1,46 @@
+.hero {
+  background: url('/images/space-bg.jpg');
+  padding: 8rem 0;
+
+  @media (min-width: $breakpoint-lg) {
+    padding: 16rem 0;
+  }
+}
+
+.hero__content {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+}
+
+.hero__subtitle {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero__button {
+  border: .1rem solid $main;
+  border-radius: .2rem;
+  color: $main;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  padding: .8rem 3.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+
+  &:hover {
+    background: $main;
+    color: white;
+  }
+}

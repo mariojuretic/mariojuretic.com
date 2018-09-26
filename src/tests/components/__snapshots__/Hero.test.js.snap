@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Hero correctly 1`] = `
+<section
+  className="hero"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="hero__content"
+    >
+      <h1
+        className="hero__title"
+      >
+        Are you looking for a new website?
+      </h1>
+      <h3
+        className="hero__subtitle"
+      >
+        I can build one for you! Check out my work.
+      </h3>
+      <Link
+        className="hero__button"
+        replace={false}
+        to="/work"
+      >
+        My work
+      </Link>
+    </div>
+  </div>
+</section>
+`;
